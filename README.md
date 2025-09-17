@@ -49,4 +49,30 @@ The School Management System (SMS) is a full-stack, web-based application built 
 1. Navigate to the backend folder:
 ```bash
 cd backend
-      
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Create a .env file in the backend folder with the following:
+MONGO_URL=<Your MongoDB Atlas URI>
+PORT=5000
+4. Start the backend server:
+```bash
+npm start
+```
+### Frontend
+1. Navigate to the frontend folder:
+```bash
+cd frontend
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Create a .env file in the frontend folder with the following:
+REACT_APP_BASE_URL=<Your backend URL>
+4. Start the frontend server:
+```bash
+npm start
+```
