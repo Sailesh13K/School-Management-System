@@ -64,8 +64,7 @@ const {
   updateTeacherSubject,
   teacherAttendance,
 } = require("../controllers/teacher-controller.js");
-const { updateUser } = require("../controllers/userController");
-const { protect } = require("../middleware/authMiddleware");
+
 // Admin
 router.post("/AdminReg", adminRegister);
 router.post("/AdminLogin", adminLogIn);
@@ -101,7 +100,6 @@ router.put("/RemoveAllStudentsAtten/:id", clearAllStudentsAttendance);
 
 router.put("/RemoveStudentSubAtten/:id", removeStudentAttendanceBySubject);
 router.put("/RemoveStudentAtten/:id", removeStudentAttendance);
-router.put("/:id", protect, updateUser);
 
 // Teacher
 
