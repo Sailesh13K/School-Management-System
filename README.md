@@ -35,11 +35,6 @@ The School Management System (SMS) is a full-stack, web-based application built 
 - **Authentication & Security:** JWT, bcryptjs  
 - **Deployment:** Render (Backend), Vercel (Frontend)  
 
----
-
-## Live Demo 🌐
-- **Frontend:** [https://school-management-system-six-khaki.vercel.app/](https://school-management-system-six-khaki.vercel.app/)  
-- **Backend:** (Render URL once deployed)
 
 ---
 
@@ -55,8 +50,11 @@ cd backend
 npm install
 ```
 3. Create a .env file in the backend folder with the following:
+```bash
+
 MONGO_URL=<Your MongoDB Atlas URI>
 PORT=5000
+```
 4. Start the backend server:
 ```bash
 npm start
@@ -71,7 +69,9 @@ cd frontend
 npm install
 ```
 3. Create a .env file in the frontend folder with the following:
+```bash
 REACT_APP_BASE_URL=<Your backend URL>
+```
 4. Start the frontend server:
 ```bash
 npm start
