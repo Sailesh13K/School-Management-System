@@ -1,26 +1,52 @@
-**School Management System** 📚🏫
+# School Management System 📚🏫
 
-The **School Management System (SMS)** is a **powerful, web-based application** designed to **simplify and enhance** school operations. It helps **organize classes, track student performance, manage attendance, and facilitate seamless communication** between students, teachers, and administrators. With an **intuitive interface and robust functionality**, SMS makes day-to-day school management **smoother and more efficient**. 🚀
+The School Management System (SMS) is a full-stack, web-based application built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**. It helps schools manage students, teachers, classes, subjects, attendance, exams, and notices efficiently. With a clean interface and role-based access, SMS simplifies day-to-day school operations for admins, teachers, and students. 🚀
 
-Built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**, this system ensures **scalability, security, and ease of use**, making it a **reliable solution** for educational institutions of all sizes. 🏫💻
+---
 
-### **Key Features** ✨
+## Key Features ✨
 
-The system is designed with **three distinct user roles**, each with tailored access and functionalities. **Admins** 👨‍💼 oversee the entire system, manage users, and configure settings. **Teachers** 👩‍🏫 take attendance, assess student performance, and communicate with students. **Students** 🎓 can view their grades, track progress, and stay connected with their teachers, ensuring a **collaborative learning environment**.
+### Admin 👨‍💼
+- Manage students, teachers, classes, and subjects.  
+- Track and update student attendance and exam marks.  
+- Post notices for students and teachers.  
+- Role-based access ensures secure management of the system.  
 
-With a **comprehensive Admin Dashboard**, administrators can **add and manage students and teachers, create and assign classes and subjects, and oversee user accounts and system configurations**—all in one place! 📊🔧
+### Teacher 👩‍🏫
+- Access assigned classes and subjects.  
+- Update student attendance and exam marks.  
+- View student profiles and notices.  
 
-Gone are the days of **manual attendance registers**! Teachers can **digitally mark attendance, track absences, and generate reports** with just a few clicks, ensuring **accurate record-keeping**. 📋✅
+### Student 🎓
+- View personal information, attendance, and exam marks.  
+- Access notices from admin or teachers.  
 
-Performance assessment is made easy as teachers can **evaluate student progress, assign marks, and provide personalized feedback**, while students can **view their grades and identify areas for improvement** through insightful reports. 📈📚
+### Profile & Security 🔒
+- Update personal info and password.  
+- Passwords are hashed securely using **bcryptjs**.  
+- JWT authentication ensures safe API access.  
 
-Understanding academic performance is even **more interactive** with **beautifully designed charts and tables**, allowing students to **visualize their progress over time** in an engaging manner. 📊🎨
+---
 
-A **seamless communication system** is built right into the platform! With an **in-app messaging system**, students and teachers can **stay connected, ask questions, and discuss assignments**, making learning **more interactive and engaging**. 💬📨
+## Technologies Used 🖥️⚙️
+- **Frontend:** React.js, Redux, Material UI  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB (Atlas or local)  
+- **Authentication & Security:** JWT, bcryptjs  
+- **Deployment:** Render (Backend), Vercel (Frontend)  
 
-### **Technologies Used** 🖥️⚙️
+---
 
-The **frontend** is built with **React.js, Material UI, and Redux**, ensuring a **responsive and dynamic user interface**. The **backend** is powered by **Node.js and Express.js**, handling requests smoothly and efficiently. For data storage, the system relies on **MongoDB**, providing a **secure and scalable database** solution. Deployment is handled via **Render (server-side) and Netlify (client-side)**, making it easily accessible. 🌍🚀
+## Live Demo 🌐
+- **Frontend:** [https://school-management-system-six-khaki.vercel.app/](https://school-management-system-six-khaki.vercel.app/)  
+- **Backend:** (Render URL once deployed)
 
-This system is **not just a management tool**—it’s a **digital backbone for modern educational institutions**. By **automating routine tasks and improving communication**, it **creates a more organized, efficient, and engaging learning environment** for everyone involved! 🎓✨
+---
 
+## Installation 💻
+
+### Backend
+1. Navigate to the backend folder:
+```bash
+cd backend
+      
